@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-ShopCoreTedu-05D84254-ED68-46AD-9F38-161906522F70</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopCoreTedu.Application\ShopCoreTedu.Application.csproj" />
+    <ProjectReference Include="..\ShopCoreTedu.Data.EF\ShopCoreTedu.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopCoreTedu.Data\ShopCoreTedu.Data.csproj" />
+    <ProjectReference Include="..\ShopCoreTedu.Infrastructure\ShopCoreTedu.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShopCoreTedu.Utilities\ShopCoreTedu.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
